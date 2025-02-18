@@ -19,8 +19,8 @@ def main():
     def mul(x, y, z):
         return x * y * z
     
-    def div(x, y, z):
-        return x / y / z
+    def div(x, y):
+        return x / y
     
     
     print("Square is:", sqrt(x))
@@ -28,6 +28,6 @@ def main():
     print("Addition is:", add(x, y, z))
     print("Subtraction is:", sub(x, y, z))
     print("Multiplication is:", mul(x, y, z))
-    print("Division is:", div(x, y, z))
+    print("Division is:", div(x, y))
     
 main()

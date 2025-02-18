@@ -47,10 +47,6 @@ def main():
     print(student)
     print("expecto patronum")
     print(student.charm())
-       
     
 if __name__ == "__main__":
     main()
-    
-    
-    
